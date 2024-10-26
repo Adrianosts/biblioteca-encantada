@@ -1,4 +1,4 @@
-# Biblioteca Encantada
+# Biblioteca Encantada 📚
 
 Link do projeto - https://biblioteca-encantada.vercel.app/
 
@@ -17,7 +17,7 @@ Link do projeto - https://biblioteca-encantada.vercel.app/
 - *serchItem*: Guarda o termo de pesquisa digitado pelo usuário
 
 
-### Funções para Gerenciamento dos Livros:
+### Funções para Gerenciamento dos Livros: 
 - *handleCreateNewPost*: Adiciona um novo livro à lista.
 - *handleDeletePost*: Remove um livro da lista após a confirmação do usuário.
 - *handleEditPost*: Abre o modal com as informações do livro para edição.
