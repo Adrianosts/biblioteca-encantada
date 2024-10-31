@@ -4,37 +4,37 @@
 
 ![Captura de tela 2024-10-26 120730](https://github.com/user-attachments/assets/82874bb4-160c-4ab5-9118-0120cf786870)
 
-Esse código é um componente React que gerencia um CRUD (Create, Read, Update, Delete) de livros com a funcionalidade de pesquisa, edição e exclusão. Aqui está um resumo passo a passo do que ele faz:
+Esse código é um componente `React` que gerencia um CRUD (Create, Read, Update, Delete) de livros com a funcionalidade de pesquisa, edição e exclusão. Aqui está um resumo passo a passo do que ele faz:
 
 ### Linguagens utilizadas no projeto
 ![My Skills](https://skillicons.dev/icons?i=react,vite,typescript,css,html,javascript)
 <hr/>
 
 ### Importações:
-- Importa diversos elementos e funções necessárias, como *hooks* do *React* (*useState*), componentes de estilo e um *modal* para editar livros.
+- Importa diversos elementos e funções necessárias, como `hooks` do React `useState`, componentes de estilo e um `modal` para editar livros.
 <hr/>
 
 ### Estados do Componente:
-- *books*: Armazena a lista de livros cadastrados.
-- *modalIsOpen*: Controla a abertura e fechamento do modal de edição.
-- *selectedBook*: Armazena o livro selecionado para edição.
-- *serchItem*: Guarda o termo de pesquisa digitado pelo usuário
+- `books`: Armazena a lista de livros cadastrados.
+- `modalIsOpen`: Controla a abertura e fechamento do modal de edição.
+- `selectedBook`: Armazena o livro selecionado para edição.
+- `serchItem`: Guarda o termo de pesquisa digitado pelo usuário
 <hr/>
 
 
 ### Funções para Gerenciamento dos Livros: 
-- *handleCreateNewPost*: Adiciona um novo livro à lista.
-- *handleDeletePost*: Remove um livro da lista após a confirmação do usuário.
-- *handleEditPost*: Abre o modal com as informações do livro para edição.
-- *handleSaveEditedBook*: Salva as alterações feitas no livro no modal e fecha o modal.
-- *closeModal*: Fecha o modal de edição e limpa o livro selecionado.
-- *handleSearchChange*: Atualiza o estado da pesquisa conforme o usuário digita.
+- `handleCreateNewPost`: Adiciona um novo livro à lista.
+- `handleDeletePost`: Remove um livro da lista após a confirmação do usuário.
+- `handleEditPost`: Abre o modal com as informações do livro para edição.
+- `handleSaveEditedBook`: Salva as alterações feitas no livro no modal e fecha o modal.
+- `closeModal`: Fecha o modal de edição e limpa o livro selecionado.
+- `handleSearchChange`: Atualiza o estado da pesquisa conforme o usuário digita.
 <hr/>
 
  
 ### Filtragem e Renderização de Livros:
-- *filteredBooks*: Filtra os livros com base no título ou autor que correspondem ao termo de busca.
-- *generateColorCard*: Aplica cores diferentes a cada livro renderizado.
+- `filteredBooks`: Filtra os livros com base no título ou autor que correspondem ao termo de busca.
+- `generateColorCard`: Aplica cores diferentes a cada livro renderizado.
 <hr/>
 
 
@@ -44,15 +44,15 @@ Esse código é um componente React que gerencia um CRUD (Create, Read, Update, 
 <hr/>
 
 
-### Modal de Edição (*EditModal*):
-- Se o modal estiver aberto (*modalIsOpen*), ele exibe um formulário para editar o livro selecionado.
+### Modal de Edição `EditModal`:
+- Se o modal estiver aberto `modalIsOpen`, ele exibe um formulário para editar o livro selecionado.
 - O modal inclui campos para alterar título, autor, categoria, ano de publicação, gênero e descrição.
 - Ao salvar, o código verifica se o ano de publicação é válido (não pode ser no futuro), e se tudo estiver correto, ele atualiza o livro.
 - Inclui botões para salvar as alterações ou cancelar a edição.
 <hr/>
 
 
-### Fechamento do modal:
+### Fechamento do `modal`:
 - O modal pode ser fechado sem salvar as alterações, retornando ao estado anterior.
 
 
