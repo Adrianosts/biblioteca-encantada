@@ -1,10 +1,10 @@
 # Biblioteca Encantada 📚
 
-Link do projeto - https://biblioteca-encantada.vercel.app/
+💻 [Link do projeto](https://biblioteca-encantada.vercel.app/)
 
 ![Captura de tela 2024-10-26 120730](https://github.com/user-attachments/assets/82874bb4-160c-4ab5-9118-0120cf786870)
 
-🖥️ Esse código é um componente React que gerencia um CRUD (Create, Read, Update, Delete) de livros com a funcionalidade de pesquisa, edição e exclusão. Aqui está um resumo passo a passo do que ele faz:
+Esse código é um componente React que gerencia um CRUD (Create, Read, Update, Delete) de livros com a funcionalidade de pesquisa, edição e exclusão. Aqui está um resumo passo a passo do que ele faz:
 
 ### Linguagens utilizadas no projeto
 ![My Skills](https://skillicons.dev/icons?i=react,vite,typescript,css,html,javascript)
